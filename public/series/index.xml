@@ -11,5 +11,15 @@
     
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Truth &amp; Love Wall</title>
+      <link>http://localhost:1313/series/truth--love-wall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>info@Truth .com (Truth &amp; Love Cultivation Association )</author>
+      <guid>http://localhost:1313/series/truth--love-wall/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
