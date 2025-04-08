@@ -1,0 +1,123 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "About"
+  weight = 20
+
+[[main]]
+  name = "Truth & Love Wall"
+  pageRef = "tags"
+  weight = 11
+
+[[main]]
+  name = "Mission & Vision"
+  parent = "About"
+  pageRef = "mission-vision"
+  weight = 1
+
+[[main]]
+  name = "Our History"
+  parent = "About"
+  pageRef = "our-history"
+  weight = 2
+
+[[main]]
+  name = "Our Future"
+  parent = "About"
+  pageRef = "our-future"
+  weight = 3
+
+[[main]]
+  name = "Need Help?"
+  weight = 30
+
+[[main]]
+  name = "Our Services"
+  parent = "About"
+  pageRef = "our-services"
+  weight = 4
+
+
+[[main]]
+  name = "Contact Truth & Love Cultivation Association"
+  parent = "Need Help?"
+  pageRef = "contact"
+  weight = 1000
+
+[[main]]
+  name = "Resources & Community"
+  parent = "Need Help?"
+  pageRef = "resources"
+  weight = 1000
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Truth & Love Wall"
+   pageRef = "tags"
+   weight = 1
+
+ [[footer]]
+   name = "(FAQs)"
+   pageRef = "faqs"
+   weight = 3
+
+ [[footer]]
+   name = "Resources"
+   pageRef = "resources"
+   weight = 2
+
+ [[footer]]
+   name = "Mission"
+   pageRef = "mission-vision"
+   weight = 3
+
+ [[footer]]
+   name = "History"
+   pageRef = "our-history"
+   weight = 4
+
+ [[footer]]
+   name = "Future"
+   pageRef = "our-future"
+   weight = 5
+
+ [[footer]]
+   name = "Services"
+   pageRef = "our-services"
+   weight = 6
+
+ [[footer]]
+   name = "Contact"
+   pageRef = "contact"
+   weight = 7
+
+ [[footer]]
+   identifier = "meetup"
+   pre = "meetup"
+   url = "https://meetup.com/truthandlove"
+   weight = 8
+
+ [[footer]]
+   identifier = "clubhouse"
+   pre = "clubhouse"
+   weight = 9
+   url = "https://clubhouse.com/truthandlove"

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Truth &amp; Love Cultivation Association on Truth &amp; Love Cultivation Association </title>
+    <link>http://localhost:1313/faqs/</link>
+    <description>Recent content in Truth &amp; Love Cultivation Association on Truth &amp; Love Cultivation Association </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>info@Truth .com (Truth &amp; Love Cultivation Association )</managingEditor>
+    <webMaster>info@Truth .com (Truth &amp; Love Cultivation Association )</webMaster>
+    
+    <atom:link href="http://localhost:1313/faqs/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

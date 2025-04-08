@@ -1,0 +1,31 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Truth & Love Cultivation Association "
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/TLC123Logo.png"
+  description = "Stand for Truth & Love"
+
+[params.author]
+  name = "Truth & Love Cultivation Association "
+  email = "info@Truth .com"
+  image = "img/TLC_Logo_Headline/TLC_Logo_Headline_BW_Sm.png"
+  headline = "Grassroots | Local Non-Profit | Social Enterprise"
+  bio = "Grassroots | Local Non-Profit | Social Enterprise"
+  links = [
+    { x-twitter = "https://x.com/TruthAndLove " },
+    { linkedIn = "https://www.linkedin.com/TruthAndLove " },
+    { reddit = "https://www.reddit.com/TruthAndLove " },
+    { tiktok = "https://tiktok.com/TruthAndLove " },
+    { instagram = "https://instagram.com/TruthAndLove " },
+    { facebook = "https://facebook.com/TruthAndLove " },
+    { meetup = "https://meetup.com/TruthAndLove " },
+    { youtube = "https://youtube.com/TruthAndLove" },
+    { clubhouse = "https://clubhouse.com/TruthAndLove" },
+  ]
+
