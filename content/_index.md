@@ -1,5 +1,5 @@
 ---
-title: "Truth & Love Cultivation Association:tada:"
+title: "Truth & Love Cultivation Association:"
 description: "Grassroots | Local Non-Profit | Social Enterprise" 
 ---
 ---
